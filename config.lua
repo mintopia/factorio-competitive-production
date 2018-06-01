@@ -9,8 +9,8 @@ function setup_config()
   global.minimum_teams = 2
   global.players_per_team = 1
   global.points_per_win = 20
-  global.recent_round_count = 5
-  global.start_round_tick = 60 * 60 --first round starts in 60 seconds
+  global.recent_round_count = 3
+  global.start_round_tick = 60 * 60 * 5 --first round starts in 5 minutes
   global.distance_between_areas = 6
   global.afk_time = 60*60*3.5 -- 3 and a half minutes
   global.inventory_probabilities =
